@@ -1,0 +1,99 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'PhysCamera002|chair|Take 001|BaseLayer',
+        },
+        {
+          name: 'PhysCamera002|Object001|Take 001|BaseLayer',
+        },
+        {
+          name: 'PhysCamera002|PhysCamera001|Take 001|BaseLayer',
+        },
+        {
+          name: 'PhysCamera002|PhysCamera002|Take 001|BaseLayer',
+        },
+        {
+          name: 'chair|chair|Take 001|BaseLayer',
+        },
+        {
+          name: 'chair|Object001|Take 001|BaseLayer',
+        },
+        {
+          name: 'chair|PhysCamera001|Take 001|BaseLayer',
+        },
+        {
+          name: 'chair|PhysCamera002|Take 001|BaseLayer',
+        },
+        {
+          name: 'Object001|chair|Take 001|BaseLayer',
+        },
+        {
+          name: 'Object001|Object001|Take 001|BaseLayer',
+        },
+        {
+          name: 'Object001|PhysCamera001|Take 001|BaseLayer',
+        },
+        {
+          name: 'Object001|PhysCamera002|Take 001|BaseLayer',
+        },
+      ],
+      path: 'sampledata/ff.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #32',
+      parameters: [
+        {
+          baseColor: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/ff.fbx',
+    name: 'ff',
+    recenter: 'root',
+  },
+  version: '0.54:2',
+}
