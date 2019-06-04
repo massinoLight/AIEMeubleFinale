@@ -87,7 +87,8 @@
         android:background="@drawable/shapelogin"
         android:padding="15dp"
         android:shadowColor="@android:color/transparent"
-        android:text="Se connecter" />
+        android:text="Se connecter"
+        />
 
     <Button
         android:id="@+id/signUp"
